@@ -22,6 +22,7 @@ class BooksHome extends StatelessWidget {
           scrollDirection: Axis.vertical,
           children: <Widget>[
             CustomTitleBar(),
+            HorizontalListView(),
           ],
         ),
       ),
@@ -56,6 +57,15 @@ class CustomTitleBar extends StatelessWidget {
           )
         ],
       ),
+    );
+  }
+}
+
+class HorizontalListView extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+
     );
   }
 }
